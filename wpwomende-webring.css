@@ -1,0 +1,41 @@
+.wpwomen-webring {
+	background-color: #2B507B;
+	padding: 1em 0;
+	text-align: center;
+	width: 100%;
+}
+.wpwomen-webring a {
+	color: #FFFFFF;
+	display: inline-block;
+	height: 2em;
+	line-height: 2em;
+}
+.wpwomen-webring a:hover,
+.wpwomen-webring a:visited {
+	color: #FFFFFF;
+}
+.wpwomen-webring a.wpwomen-webring-prev,
+.wpwomen-webring a.wpwomen-webring-next {
+	background-color: #333333;
+	border-radius: 2em;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	display: block;
+	float: left;
+	font-family: times, serif;
+	margin: 0 1em;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	text-indent: -0.15em;
+	width: 2em;
+}
+.wpwomen-webring a.wpwomen-webring-next {
+	float: right;
+	text-indent: 0.15em;
+}
+
+/* hide the WP Stats icon to place the webring bar at the very bottom of the page */
+#wpstats {
+	display: none;
+}
