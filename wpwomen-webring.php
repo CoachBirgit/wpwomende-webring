@@ -75,6 +75,8 @@ if ( ! class_exists( 'wp_women_webring' ) ) {
 				'http://www.taxifisch.com',
 				'http://www.die-netzialisten.de',
 				'http://www.texto.de',
+				'http://www.voelckner.de',
+				'http://wp-bistro.de',
 			);
 
 			shuffle( $this->blogs );
