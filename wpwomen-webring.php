@@ -111,7 +111,7 @@ if ( ! class_exists( 'wp_women_webring' ) ) {
 		 */
 		public function display_webring() {
 
-			?><div class="wpwomen-webring"><a href="<?php echo $this->get_blog_url(); ?>" class="wpwomen-webring-prev">&#9668;</a> <a href="http://wpwomende.org/webring" class="wpwomen-webring-list">WP Women Webring</a> <a href="<?php echo $this->get_blog_url(); ?>" class="wpwomen-webring-next">&#9658;</a></div><?php
+			?><div class="wpwomen-webring"><a href="<?php echo $this->get_blog_url(); ?>" class="wpwomen-webring-prev" rel="nofollow">&#9668;</a> <a href="http://wpwomende.org/webring" class="wpwomen-webring-list" rel="nofollow">WP Women Webring</a> <a href="<?php echo $this->get_blog_url(); ?>" class="wpwomen-webring-next" rel="nofollow">&#9658;</a></div><?php
 		}
 		
 		/**
